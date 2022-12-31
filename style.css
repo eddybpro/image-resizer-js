@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #047290;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-size: 16px;
+    font-family: 'Poppins',sans-serif;
+}
+
+.wrapper{
+    width: 450px;
+    height: 288px;
+    border-radius: .5rem;
+    background-color: #fff;
+    padding: 1rem 2rem;
+    transition:height .2s ease ;
+}
+
+.wrapper.active{
+    height: 537px;
+}
+
+.wrapper .upload-box{
+    height: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    border-radius: .4rem;
+    border: 2px dashed #afafaf;
+}
+
+.wrapper .upload-box img{
+    width: 5rem;
+    height: 5rem;
+}
+
+.wrapper.active .upload-box{
+    border: none;
+}
+
+.wrapper.active .upload-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: .2rem;
+}
+
+.wrapper.active .upload-box p{
+    display: none;
+}
+
+.upload-box p{
+    font-size: 1.2rem;
+    margin-top: .9rem;
+}
+
+.wrapper .content{
+    margin-top: 1.55rem;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.wrapper.active .content{
+    opacity: 1;
+    pointer-events: auto;
+    transition: opacity .5s .5s ease;
+}
+
+.content .row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .row .column{
+    width: calc(100% / 2 - .7rem);
+}
+
+.row .column label{
+    font-size: 1.1rem;
+}
+
+.sizes .column input{
+    width: 100%;
+    height: 2rem;
+    outline: none;
+    border: 1px solid #aaa;
+    border-radius: .2rem;
+    margin-top: .5rem;
+    padding:0 .4rem;
+    font-size: 1rem;
+}
+
+.sizes .column input:focus{
+    border: 2px solid #927dfc;
+    padding: 0 .3rem;
+}
+
+.content .checkboxes{
+    margin-top: 1.2rem;
+}
+
+.checkboxes .column{
+    display: flex;
+    align-items: center;
+}
+
+.checkboxes .column input{
+    width: 1.1rem;
+    height: 1.1rem;
+    accent-color: #927dfc;
+    margin-right: .7rem;
+    cursor: pointer;
+}
+
+.content .download-btn{
+    width: 100%;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: .5rem;
+    font-size: 1.1rem;
+    padding: 1rem 0;
+    margin: 1.6rem 0 .6rem;
+    background: #927dfc;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
